@@ -14,6 +14,11 @@
 		4634FD141D88B7EF004BADD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4634FD121D88B7EF004BADD8 /* Main.storyboard */; };
 		4634FD161D88B7EF004BADD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4634FD151D88B7EF004BADD8 /* Assets.xcassets */; };
 		4634FD191D88B7EF004BADD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4634FD171D88B7EF004BADD8 /* LaunchScreen.storyboard */; };
+		4634FD241D88B99E004BADD8 /* alien@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4634FD211D88B99E004BADD8 /* alien@2x.png */; };
+		4634FD251D88B99E004BADD8 /* shuttle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4634FD221D88B99E004BADD8 /* shuttle@2x.png */; };
+		4634FD261D88B99E004BADD8 /* torpedo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4634FD231D88B99E004BADD8 /* torpedo@2x.png */; };
+		4634FD2A1D88B9E4004BADD8 /* bgmusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4634FD281D88B9E4004BADD8 /* bgmusic.mp3 */; };
+		4634FD2B1D88B9E4004BADD8 /* torpedo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4634FD291D88B9E4004BADD8 /* torpedo.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,11 @@
 		4634FD151D88B7EF004BADD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4634FD181D88B7EF004BADD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4634FD1A1D88B7EF004BADD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4634FD211D88B99E004BADD8 /* alien@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alien@2x.png"; sourceTree = "<group>"; };
+		4634FD221D88B99E004BADD8 /* shuttle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shuttle@2x.png"; sourceTree = "<group>"; };
+		4634FD231D88B99E004BADD8 /* torpedo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "torpedo@2x.png"; sourceTree = "<group>"; };
+		4634FD281D88B9E4004BADD8 /* bgmusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bgmusic.mp3; sourceTree = "<group>"; };
+		4634FD291D88B9E4004BADD8 /* torpedo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = torpedo.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,12 +72,33 @@
 				4634FD0C1D88B7EF004BADD8 /* GameScene.sks */,
 				4634FD0E1D88B7EF004BADD8 /* GameScene.swift */,
 				4634FD101D88B7EF004BADD8 /* GameViewController.swift */,
+				4634FD271D88B9B9004BADD8 /* sounds */,
+				4634FD201D88B857004BADD8 /* sprites.atlas */,
 				4634FD121D88B7EF004BADD8 /* Main.storyboard */,
 				4634FD151D88B7EF004BADD8 /* Assets.xcassets */,
 				4634FD171D88B7EF004BADD8 /* LaunchScreen.storyboard */,
 				4634FD1A1D88B7EF004BADD8 /* Info.plist */,
 			);
 			path = SpaceInvader;
+			sourceTree = "<group>";
+		};
+		4634FD201D88B857004BADD8 /* sprites.atlas */ = {
+			isa = PBXGroup;
+			children = (
+				4634FD211D88B99E004BADD8 /* alien@2x.png */,
+				4634FD221D88B99E004BADD8 /* shuttle@2x.png */,
+				4634FD231D88B99E004BADD8 /* torpedo@2x.png */,
+			);
+			name = sprites.atlas;
+			sourceTree = "<group>";
+		};
+		4634FD271D88B9B9004BADD8 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				4634FD281D88B9E4004BADD8 /* bgmusic.mp3 */,
+				4634FD291D88B9E4004BADD8 /* torpedo.mp3 */,
+			);
+			name = sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,9 +159,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4634FD251D88B99E004BADD8 /* shuttle@2x.png in Resources */,
+				4634FD241D88B99E004BADD8 /* alien@2x.png in Resources */,
 				4634FD0D1D88B7EF004BADD8 /* GameScene.sks in Resources */,
+				4634FD2A1D88B9E4004BADD8 /* bgmusic.mp3 in Resources */,
+				4634FD261D88B99E004BADD8 /* torpedo@2x.png in Resources */,
 				4634FD191D88B7EF004BADD8 /* LaunchScreen.storyboard in Resources */,
 				4634FD161D88B7EF004BADD8 /* Assets.xcassets in Resources */,
+				4634FD2B1D88B9E4004BADD8 /* torpedo.mp3 in Resources */,
 				4634FD141D88B7EF004BADD8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,6 +332,7 @@
 				4634FD1F1D88B7EF004BADD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
